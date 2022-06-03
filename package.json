@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/tivic-dev/sol-tools-ts#readme",
   "dependencies": {
-    "@angular/core": "~8.2.9",
+    "@angular/core": "~11.0.5",
     "@angular/forms": "~8.2.9",
     "@angular/material": "^8.2.3",
     "rxjs": "^6.6.2"
