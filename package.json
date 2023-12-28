@@ -1,6 +1,6 @@
 {
   "name": "@tivic-team/sol-tools-ts",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "description": "Repositório de ferramentas gerais dos produtos da TIVIC",
   "main": "src/index.js",
   "types": "dist/index.d.ts",
