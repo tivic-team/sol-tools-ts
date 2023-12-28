@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tivic-dev/sol-tools-ts.git",
+    "url": "git+https://github.com/tivic-team/sol-tools-ts.git",
     "directory": "@tivic-team/sol-tools-ts"
   },
   "keywords": [
@@ -21,13 +21,14 @@
   "author": "TIVIC",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tivic-dev/sol-tools-ts/issues"
+    "url": "https://github.com/tivic-team/sol-tools-ts/issues"
   },
-  "homepage": "https://github.com/tivic-dev/sol-tools-ts#readme",
+  "homepage": "https://github.com/tivic-team/sol-tools-ts#readme",
   "dependencies": {
     "@angular/core": "~8.2.9",
     "@angular/forms": "~8.2.9",
     "@angular/material": "^8.2.3",
+    "@angular/animations": "^8.2.3",
     "rxjs": "^6.6.2"
   },
   "publishConfig": {
