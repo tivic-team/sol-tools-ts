@@ -6,7 +6,9 @@ import { IChartData } from "./chart-data";
 import Chart from 'chart.js';
 import { MesLabels } from "./mes.enum";
 import { tipoGrafico } from "./tipo-grafico.enum";
+import { IChartOptions } from "./chart-options";
 export class ChartBuilder{
+    private _chartOptions:IChartOptions;
     private _canvasId:string;
     private _tpGrafico:number;
     private _items:any[];
@@ -34,6 +36,11 @@ export class ChartBuilder{
 
     registers(registers:any[]):ChartBuilder{
         this._items = registers;
+        return this;
+    }
+
+    chartOptions(chartOptions:IChartOptions):ChartBuilder{
+        this._chartOptions = chartOptions;
         return this;
     }
 
@@ -102,12 +109,12 @@ export class ChartBuilder{
             this._porHora();
         switch(this._tpGrafico){
             case tipoGrafico.BARRAS:
-                return new BarChart({
+                return new BarChart(this._chartOptions || {
                     canvasId: this._canvasId || 'grafico',
                     data: this._dataMensal || this._dataPorHora || this._managerModalChart.generateDataChart(this._formGroup.value, this._items)
                 }).plot();
             case tipoGrafico.PIZZA:
-                return new PizzaChart({
+                return new PizzaChart(this._chartOptions || {
                     canvasId: this._canvasId || 'grafico',
                     data: this._dataMensal || this._dataPorHora|| this._managerModalChart.generateDataChart(this._formGroup.value, this._items)
                 }).plot();
