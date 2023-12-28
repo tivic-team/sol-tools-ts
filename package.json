@@ -1,5 +1,5 @@
 {
-  "name": "sol-tools-ts",
+  "name": "@tivic-team/sol-tools-ts",
   "version": "0.1.6",
   "description": "Repositório de ferramentas gerais dos produtos da TIVIC",
   "main": "src/index.js",
@@ -12,7 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tivic-dev/sol-tools-ts.git"
+    "url": "git+https://github.com/tivic-dev/sol-tools-ts.git",
+    "directory": "@tivic-team/sol-tools-ts"
   },
   "keywords": [
     "tools"
