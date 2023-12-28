@@ -20,4 +20,5 @@ export interface IChartOptions {
   title?: string;
   plugins?: ChartPluginsOptions;
   stacked?: boolean;
+  backgroundColor?:string;
 }

@@ -4,6 +4,7 @@ export { Reporter } from './reporter/reporter';
 export { ReporterBuilder } from './reporter/reporter-builder';
 export { FilterSearch } from './reporter/filter-search';
 export { ManagerModalChart } from './charts/manager-modal-chart';
-export { TipoGraficoLabels } from './charts/tipo-grafico.enum';
+export { TipoGraficoLabels, tipoGrafico } from './charts/tipo-grafico.enum';
 export { ChartBuilder } from './charts/chart-builder';
 export { IChartOptions } from './charts/chart-options';
+export { IChart } from './charts/chart';
