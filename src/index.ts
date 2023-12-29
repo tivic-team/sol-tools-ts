@@ -8,3 +8,4 @@ export { TipoGraficoLabels, tipoGrafico } from './charts/tipo-grafico.enum';
 export { ChartBuilder } from './charts/chart-builder';
 export { IChartOptions } from './charts/chart-options';
 export { IChart } from './charts/chart';
+export { MesLabels } from './charts/mes.enum';
