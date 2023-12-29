@@ -78,7 +78,12 @@ export class ManagerModalChart{
 
         const data:IChartData = {
             labels: labels,
-            datasets: [{ data: dataSet }],
+            datasets: [{ 
+                data: dataSet,
+                backgroundColor: "rgba(75, 192, 192, 0.2)",
+                borderColor: "rgba(75, 192, 192, 1)",
+                borderWidth: 1
+            }],
         };
 
         return data;
