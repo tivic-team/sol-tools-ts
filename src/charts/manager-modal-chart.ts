@@ -76,12 +76,23 @@ export class ManagerModalChart{
             dataSet.push(map.get(key));
         }
 
+        const COLORS = [
+            '#4dc9f6',
+            '#f67019',
+            '#f53794',
+            '#537bc4',
+            '#acc236',
+            '#166a8f',
+            '#00a950',
+            '#58595b',
+            '#8549ba'
+        ];
+
         const data:IChartData = {
             labels: labels,
             datasets: [{ 
                 data: dataSet,
-                backgroundColor: "rgba(75, 192, 192, 0.2)",
-                borderColor: "rgba(75, 192, 192, 1)",
+                backgroundColor: COLORS[Math.floor(Math.random() * COLORS.length)],
                 borderWidth: 1
             }],
         };

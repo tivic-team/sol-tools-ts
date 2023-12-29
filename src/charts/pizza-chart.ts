@@ -31,9 +31,12 @@ export class PizzaChart implements IChart {
         },
         tooltips: this.buildTooltip(),
         plugins: {
-          colorschemes: {
-            scheme: 'brewer.Spectral3'
-          },
+          colorschemes:
+            (this.options.colorscheme && {
+              scheme: this.options.colorscheme,
+              override: true,
+            }) ||
+            {},
           ...this.options.plugins,
         },
         title: {
