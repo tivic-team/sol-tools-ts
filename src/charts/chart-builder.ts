@@ -103,9 +103,9 @@ export class ChartBuilder{
     }
 
     build():Chart{
-        if(this._formGroup.value.campoAnalisado.type == 'date')
+        if(this._formGroup && this._formGroup.value.campoAnalisado.type == 'date')
             this._mensal();
-        if(this._formGroup.value.campoAnalisado.type == 'hour')
+        if(this._formGroup && this._formGroup.value.campoAnalisado.type == 'hour')
             this._porHora();
         switch(this._tpGrafico){
             case tipoGrafico.BARRAS:
