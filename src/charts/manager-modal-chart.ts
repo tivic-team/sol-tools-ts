@@ -92,7 +92,8 @@ export class ManagerModalChart{
             labels: labels,
             datasets: [{ 
                 data: dataSet,
-                //backgroundColor: COLORS[Math.floor(Math.random() * COLORS.length)],
+                backgroundColor: COLORS,
+                borderColor: "rgba(75, 192, 192, 1)",
                 borderWidth: 1
             }],
         };
