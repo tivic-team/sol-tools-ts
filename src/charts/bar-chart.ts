@@ -56,7 +56,7 @@ export class BarChart implements IChart {
           return '';
         },
         label: (item, data: IChartData) => {
-          const totalValue = data.datasets.reduce((prev, curr) => prev + curr.data[item.index], 0);
+          const totalValue = data.datasets[0].data.reduce((prev, curr) => prev + curr, 0);
           const itemPercentage = ((Number(item.value) / totalValue) * 100).toFixed(1);
           return `${data.datasets[item.datasetIndex].label || 'Total'}: ${item.value} (${itemPercentage}%)`;
         },
