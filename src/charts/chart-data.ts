@@ -7,6 +7,6 @@
  */
 export interface IChartData {
   labels: string[];
-  datasets: { label?: string; data: number[] }[];
+  datasets: { label?: string; data: number[], backgroundColor?: string, borderColor?:string, borderWidth?: number, fill?: true, type?:string }[];
   percentage?: boolean;
 }
