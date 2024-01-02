@@ -45,7 +45,7 @@ export class ManagerModalChart{
         let fieldFilters = "";
         let listFilterSearch: FilterSearch[] = modal.listSearch;
         listFilterSearch.forEach((filterSearch, index) => {
-            if(modal.values[filterSearch.field]){
+            if(modal.values[filterSearch.field] != undefined){
                 fieldFilters += `<b>${filterSearch.header}:</b> `;
                 fieldFilters += `${(
                     filterSearch.fieldObject && filterSearch.labelFunction ? filterSearch.labelFunction(modal.values[filterSearch.fieldObject]) :
@@ -61,7 +61,7 @@ export class ManagerModalChart{
         header+= `<h2>${headerText}</h2>`;
         let listFilterSearch: FilterSearch[] = modal.listSearch;
         listFilterSearch.forEach((filterSearch, index) => {
-            if(modal.values[filterSearch.field]){
+            if(modal.values[filterSearch.field] != undefined){
                 header += `<b>${filterSearch.header}:</b> `;
                 header += `${(
                     filterSearch.fieldObject && filterSearch.labelFunction ? filterSearch.labelFunction(modal.values[filterSearch.fieldObject]) :

@@ -2,6 +2,12 @@
 
 ## 02/01/2023
 
+### v1.24.0
+
+![Image](assets//botao_corrigido.png) *Correção de comparação por zero nos filtros de gráfico e relatório*
+
+## 02/01/2023
+
 ### v1.23.0
 
 ![Image](assets//botao_adicionado.png) *Adicionado repetição de cores na paleta dos gráficos*
