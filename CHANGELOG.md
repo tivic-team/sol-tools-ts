@@ -2,9 +2,15 @@
 
 ## 02/01/2023
 
+### v1.23.0
+
+![Image](assets//botao_adicionado.png) *Adicionado repetição de cores na paleta dos gráficos*
+
+## 02/01/2023
+
 ### v1.22.0
 
-![Image](assets//botao_adicionado.png) *Adicionado cor vermelhaà paleta de cores dos gráficos*
+![Image](assets//botao_adicionado.png) *Adicionado cor vermelha paleta de cores dos gráficos*
 
 ## 02/01/2023
 
