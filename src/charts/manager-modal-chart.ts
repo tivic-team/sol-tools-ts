@@ -14,7 +14,8 @@ export class ManagerModalChart{
         '#166a8f',
         '#00a950',
         '#58595b',
-        '#8549ba'
+        '#8549ba',
+        "#ff0000"
     ];
 
     generateFieldFilters(modal:{listSearch:FilterSearch[], values:any}):void{
