@@ -2,6 +2,12 @@
 
 ## 03/01/2023
 
+### v1.29.0
+
+![Image](assets//botao_adicionado.png) *Adicionado baixa de relatorio ao pedir impressão*
+
+## 03/01/2023
+
 ### v1.27.0
 
 ![Image](assets//botao_corrigido.png) *Retirada de ComponentFilterSearch*
