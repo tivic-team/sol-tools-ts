@@ -2,6 +2,12 @@
 
 ## 03/01/2023
 
+### v1.26.0
+
+![Image](assets//botao_corrigido.png) *Exportado ComponentFilterSearch*
+
+## 03/01/2023
+
 ### v1.25.0
 
 ![Image](assets//botao_adicionado.png) *Retirado argumento de lista no FilterSearch e adicionado o ComponentFilterSearch*
