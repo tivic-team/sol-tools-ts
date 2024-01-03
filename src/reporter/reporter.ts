@@ -159,7 +159,8 @@ export class Reporter{
         this._generateTitle(doc);
         let quantidadeLinhas:number = this._generateFilters(doc);
         this._generateTable(doc, quantidadeLinhas);
-        doc.output('dataurlnewwindow')
+        //doc.output('dataurlnewwindow')
+        doc.save('relatorio.pdf')
     }
 
 }
