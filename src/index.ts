@@ -9,4 +9,3 @@ export { ChartBuilder } from './charts/chart-builder';
 export { IChartOptions } from './charts/chart-options';
 export { IChart } from './charts/chart';
 export { MesLabels } from './charts/mes.enum';
-export { ComponentFilterSearch } from './component-filter-search';

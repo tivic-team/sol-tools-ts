@@ -2,6 +2,12 @@
 
 ## 03/01/2023
 
+### v1.27.0
+
+![Image](assets//botao_corrigido.png) *Retirada de ComponentFilterSearch*
+
+## 03/01/2023
+
 ### v1.26.0
 
 ![Image](assets//botao_corrigido.png) *Exportado ComponentFilterSearch*
