@@ -3,6 +3,7 @@ export class FilterSearch{
     header:string; 
     labelFunction?:Function; 
     fieldObject?:string;
+    list?:any[];
 
     static getFormControls(listFilterSearch:FilterSearch[], register:any):any{
         let controls:any = {};

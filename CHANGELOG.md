@@ -1,8 +1,14 @@
 # :scroll: CHANGELOG
 
-## 02/01/2023
+## 03/01/2023
 
 ### v1.24.0
+
+![Image](assets//botao_adicionado.png) *Adicionado argumento de lista no FilterSearch*
+
+## 02/01/2023
+
+### v1.23.0
 
 ![Image](assets//botao_corrigido.png) *Correção de comparação por zero nos filtros de gráfico e relatório*
 

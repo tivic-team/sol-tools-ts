@@ -49,7 +49,9 @@ export class ManagerModalChart{
                 fieldFilters += `<b>${filterSearch.header}:</b> `;
                 fieldFilters += `${(
                     filterSearch.fieldObject && filterSearch.labelFunction ? filterSearch.labelFunction(modal.values[filterSearch.fieldObject]) :
-                    filterSearch.labelFunction ? filterSearch.labelFunction(modal.values[filterSearch.field]) : modal.values[filterSearch.field]
+                    filterSearch.list && filterSearch.labelFunction ?  filterSearch.labelFunction(modal.values[filterSearch.fieldObject], filterSearch.list) :
+                    filterSearch.labelFunction ? filterSearch.labelFunction(modal.values[filterSearch.field]) : 
+                    modal.values[filterSearch.field]
                 )}<br/>`;
             }
         });
@@ -65,7 +67,9 @@ export class ManagerModalChart{
                 header += `<b>${filterSearch.header}:</b> `;
                 header += `${(
                     filterSearch.fieldObject && filterSearch.labelFunction ? filterSearch.labelFunction(modal.values[filterSearch.fieldObject]) :
-                    filterSearch.labelFunction ? filterSearch.labelFunction(modal.values[filterSearch.field]) : modal.values[filterSearch.field]
+                    filterSearch.list && filterSearch.labelFunction ?  filterSearch.labelFunction(modal.values[filterSearch.fieldObject], filterSearch.list) :
+                    filterSearch.labelFunction ? filterSearch.labelFunction(modal.values[filterSearch.field]) : 
+                    modal.values[filterSearch.field]
                 )}<br/>`;
             }
         });
