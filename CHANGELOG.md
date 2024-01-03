@@ -2,6 +2,12 @@
 
 ## 03/01/2023
 
+### v1.33.0
+
+![Image](assets//botao_adicionado.png) *Verificação de navegador para abrir aba ou baixar relatório*
+
+## 03/01/2023
+
 ### v1.29.0
 
 ![Image](assets//botao_adicionado.png) *Adicionado baixa de relatorio ao pedir impressão*

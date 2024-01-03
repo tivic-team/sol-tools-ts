@@ -159,12 +159,11 @@ export class Reporter{
         this._generateTitle(doc);
         let quantidadeLinhas:number = this._generateFilters(doc);
         this._generateTable(doc, quantidadeLinhas);
-        var string = doc.output('datauristring');
-        var iframe = "<iframe width='100%' height='100%' src='" + string + "'></iframe>"
-        var x = window.open();
-        x.document.open();
-        x.document.write(iframe);
-        x.document.close();
+        if(navigator.userAgent.match('/chrome|chromium|crios/i|edg/i'))
+            doc.save('reporter.pdf')
+        else
+            doc.output('dataurlnewwindow')
+        
     }
 
 }
