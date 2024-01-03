@@ -159,8 +159,8 @@ export class Reporter{
         this._generateTitle(doc);
         let quantidadeLinhas:number = this._generateFilters(doc);
         this._generateTable(doc, quantidadeLinhas);
-        let win = doc.output('dataurlnewwindow')
-        console.log(win);
+        var blob = doc.output("blob");
+        window.open(URL.createObjectURL(blob));
         doc.save('reporter.pdf')
     }
 
