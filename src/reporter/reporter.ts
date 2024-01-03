@@ -159,6 +159,7 @@ export class Reporter{
         this._generateTitle(doc);
         let quantidadeLinhas:number = this._generateFilters(doc);
         this._generateTable(doc, quantidadeLinhas);
+        console.log('navigator.userAgent = ', navigator.userAgent)
         if(navigator.userAgent.match('/chrome|chromium|crios/i|edg/i'))
             doc.save('reporter.pdf')
         else
