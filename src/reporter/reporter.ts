@@ -159,9 +159,12 @@ export class Reporter{
         this._generateTitle(doc);
         let quantidadeLinhas:number = this._generateFilters(doc);
         this._generateTable(doc, quantidadeLinhas);
-        var blob = doc.output("blob");
-        window.open(URL.createObjectURL(blob));
-        doc.save('reporter.pdf')
+        var string = doc.output('datauristring');
+        var iframe = "<iframe width='100%' height='100%' src='" + string + "'></iframe>"
+        var x = window.open();
+        x.document.open();
+        x.document.write(iframe);
+        x.document.close();
     }
 
 }
