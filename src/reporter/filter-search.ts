@@ -1,9 +1,11 @@
+import { ComponentFilterSearch } from "../component-filter-search";
+
 export class FilterSearch{
     field:any; 
     header:string; 
     labelFunction?:Function; 
     fieldObject?:string;
-    list?:any[];
+    componentFilterSearch?:ComponentFilterSearch;
 
     static getFormControls(listFilterSearch:FilterSearch[], register:any):any{
         let controls:any = {};
