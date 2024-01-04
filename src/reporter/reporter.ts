@@ -159,12 +159,19 @@ export class Reporter{
         this._generateTitle(doc);
         let quantidadeLinhas:number = this._generateFilters(doc);
         this._generateTable(doc, quantidadeLinhas);
-        console.log('navigator.userAgent = ', navigator.userAgent)
-        if(navigator.userAgent.match('/chrome|chromium|crios/i|edg/i'))
+        if(this.isChrome())
             doc.save('reporter.pdf')
         else
             doc.output('dataurlnewwindow')
         
+    }
+
+    private isChrome():boolean{
+        var winNav = window.navigator;
+        var vendorName = winNav.vendor;
+        var isIEedge = winNav.userAgent.indexOf("Edg") > -1;
+        var isIOSChrome = winNav.userAgent.match("CriOS");
+        return isIOSChrome != undefined || vendorName === "Google Inc." || isIEedge;
     }
 
 }
