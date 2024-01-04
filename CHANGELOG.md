@@ -2,6 +2,12 @@
 
 ## 03/01/2023
 
+### v1.36.0
+
+![Image](assets//botao_adicionado.png) *Condicional para abrir relatório no Chrome/Edge como download e no Firefox como nova aba*
+
+## 03/01/2023
+
 ### v1.33.0
 
 ![Image](assets//botao_adicionado.png) *Verificação de navegador para abrir aba ou baixar relatório*
