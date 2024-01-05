@@ -2,6 +2,12 @@
 
 ## 05/01/2023
 
+### v1.38.0
+
+![Image](assets//botao_adicionado.png) *AlertDialog e ConfirmDialog foram exportados*
+
+## 05/01/2023
+
 ### v1.37.0
 
 ![Image](assets//botao_adicionado.png) *AlertDialog e ConfirmDialog foram exportados*
