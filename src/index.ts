@@ -9,5 +9,3 @@ export { ChartBuilder } from './charts/chart-builder';
 export { IChartOptions } from './charts/chart-options';
 export { IChart } from './charts/chart';
 export { MesLabels } from './charts/mes.enum';
-export { ConfirmDialog } from './dialog/confirm-dialog';
-export { AlertDialog } from './dialog/alert-dialog';
