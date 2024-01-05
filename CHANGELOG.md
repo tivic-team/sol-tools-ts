@@ -1,5 +1,11 @@
 # :scroll: CHANGELOG
 
+## 05/01/2023
+
+### v1.37.0
+
+![Image](assets//botao_adicionado.png) *AlertDialog e ConfirmDialog foram exportados*
+
 ## 03/01/2023
 
 ### v1.36.0
